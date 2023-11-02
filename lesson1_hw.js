@@ -45,5 +45,6 @@ let myUndefined2;
 console.log(myUndefined2);
 //Task 12
 let name = "Bill Gates";
-admin = "Bill Gates";
-console.log(admin);
+Admin = "Bill Gates";
+console.log(Admin);
+//the end of tasks
