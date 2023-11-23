@@ -1,17 +1,43 @@
 //Task 1
-function verifyisNaN (){
-    let a = "24";
-    console.log(Number.isNaN("20"));
-    let b = false;
-    console.log(isNaN(false));
-    let c;
-    console.log(Number.isNaN());
-    let d = "@";
-    console.log(isNaN( "@"));
-    let e = /square/;
-    console.log(isNaN( /square/));
-    }
-    verifyisNaN () 
+var g = 18;
+var a = "24";
+var b = false;
+var d = "@";
+var m = "arr";
+
+function verifyIsNaN() {
+  if (typeof g === "number" && !isNaN(g)) {
+    console.log('Variable g is a number');
+  } else {
+    console.log('Variable g is NaN');
+  }
+
+  if (typeof a === "number" && !isNaN(a)) {
+    console.log('Variable a is a number');
+  } else {
+    console.log('Variable a is NaN');
+  }
+
+  if (typeof b === "number" && !isNaN(b)) {
+    console.log('Variable b is a number');
+  } else {
+    console.log('Variable b is NaN');
+  }
+
+  if (typeof d === "number" && !isNaN(d)) {
+    console.log('Variable d is a number');
+  } else {
+    console.log('Variable d is NaN');
+  }
+
+  if (typeof m === "number" && !isNaN(m)) {
+    console.log('Variable m is a number');
+  } else {
+    console.log('Variable m is NaN');
+  }
+}
+
+verifyIsNaN();
 // Task 2 (longer version, this task was really hard for me)
 function checkProbabilityTheory (startNum, endNum, count) {
     let numbers = [];
